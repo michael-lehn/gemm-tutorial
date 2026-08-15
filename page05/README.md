@@ -403,15 +403,13 @@ Using eight SSE registers for the entries of $\mathbf{AB}$ leaves two registers,
 The entries of $\mathbf{AB}$ are now grouped differently from the previous implementation. For example,
 
 $$
-\mathbb{ab}_{00,11}
-=
+\mathbb{ab}_{00,11} =
 \begin{pmatrix}
 AB_{0,0}\\
 AB_{1,1}
 \end{pmatrix},
 \qquad
-\mathbb{ab}_{01,10}
-=
+\mathbb{ab}_{01,10} =
 \begin{pmatrix}
 AB_{0,1}\\
 AB_{1,0}
