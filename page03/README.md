@@ -172,11 +172,11 @@ $$
 Let
 
 $$
-\mathbb{b}_{00},\;
-\mathbb{b}_{11},\;
-\mathbb{b}_{22},\;
-\mathbb{b}_{33},\;
-\mathbb{a}_{01},\;
+\mathbb{b}_{00},
+\mathbb{b}_{11},
+\mathbb{b}_{22},
+\mathbb{b}_{33},
+\mathbb{a}_{01},
 \mathbb{a}_{23}
 $$
 
