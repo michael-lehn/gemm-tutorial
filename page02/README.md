@@ -281,7 +281,7 @@ $ grep " -----$" report > refBLAS
 The following gnuplot script `bench.gps` creates an SVG plot:
 
 ```gnuplot
-set terminal svg size 940,480
+set terminal svg size 940,480 background rgb 'white'
 set output "bench.svg"
 set xlabel "Matrix dimensions N=M=K"
 set ylabel "MFLOPS"
