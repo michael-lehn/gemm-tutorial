@@ -198,6 +198,6 @@ clean:
 
 ---
 
-[← Main Page](../) | [Next →](../page02/)
+[← Main Page](../README.md) | [Next →](../page02/)
 
 Copyright © 2014 Michael Lehn

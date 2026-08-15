@@ -310,6 +310,6 @@ This compiler sensitivity is one of the motivations for taking more control over
 
 ---
 
-[← Previous](../page01/) | [Main Page](../) | [Next →](../page03/)
+[← Previous](../page01/) | [Main Page](../README.md) | [Next →](../page03/)
 
 Copyright © 2014 Michael Lehn
