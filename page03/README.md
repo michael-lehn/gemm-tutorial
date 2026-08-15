@@ -185,22 +185,22 @@ denote SSE registers. We use these six registers for the operands:
 $$
 \begin{aligned}
 \mathbb{b}_{00} &\leftarrow
-\begin{pmatrix}b_{4l}\\b_{4l}\end{pmatrix},
+\begin{pmatrix}b_{4l}\\ b_{4l}\end{pmatrix},
 &
 \mathbb{b}_{11} &\leftarrow
-\begin{pmatrix}b_{4l+1}\\b_{4l+1}\end{pmatrix},
+\begin{pmatrix}b_{4l+1}\\ b_{4l+1}\end{pmatrix},
 \\
 \mathbb{b}_{22} &\leftarrow
-\begin{pmatrix}b_{4l+2}\\b_{4l+2}\end{pmatrix},
+\begin{pmatrix}b_{4l+2}\\ b_{4l+2}\end{pmatrix},
 &
 \mathbb{b}_{33} &\leftarrow
-\begin{pmatrix}b_{4l+3}\\b_{4l+3}\end{pmatrix},
+\begin{pmatrix}b_{4l+3}\\ b_{4l+3}\end{pmatrix},
 \\
 \mathbb{a}_{01} &\leftarrow
-\begin{pmatrix}a_{4l}\\a_{4l+1}\end{pmatrix},
+\begin{pmatrix}a_{4l}\\ a_{4l+1}\end{pmatrix},
 &
 \mathbb{a}_{23} &\leftarrow
-\begin{pmatrix}a_{4l+2}\\a_{4l+3}\end{pmatrix}.
+\begin{pmatrix}a_{4l+2}\\ a_{4l+3}\end{pmatrix}.
 \end{aligned}
 $$
 
@@ -209,28 +209,28 @@ Another eight SSE registers represent the $4\times4$ result block $\mathbf{AB}$:
 $$
 \begin{aligned}
 \mathbb{ab}_{00,10} &\leftarrow
-\begin{pmatrix}ab_{0,0}\\ab_{1,0}\end{pmatrix},
+\begin{pmatrix}ab_{0,0}\\ ab_{1,0}\end{pmatrix},
 &
 \mathbb{ab}_{20,30} &\leftarrow
-\begin{pmatrix}ab_{2,0}\\ab_{3,0}\end{pmatrix},
+\begin{pmatrix}ab_{2,0}\\ ab_{3,0}\end{pmatrix},
 \\
 \mathbb{ab}_{01,11} &\leftarrow
-\begin{pmatrix}ab_{0,1}\\ab_{1,1}\end{pmatrix},
+\begin{pmatrix}ab_{0,1}\\ ab_{1,1}\end{pmatrix},
 &
 \mathbb{ab}_{21,31} &\leftarrow
-\begin{pmatrix}ab_{2,1}\\ab_{3,1}\end{pmatrix},
+\begin{pmatrix}ab_{2,1}\\ ab_{3,1}\end{pmatrix},
 \\
 \mathbb{ab}_{02,12} &\leftarrow
-\begin{pmatrix}ab_{0,2}\\ab_{1,2}\end{pmatrix},
+\begin{pmatrix}ab_{0,2}\\ ab_{1,2}\end{pmatrix},
 &
 \mathbb{ab}_{22,32} &\leftarrow
-\begin{pmatrix}ab_{2,2}\\ab_{3,2}\end{pmatrix},
+\begin{pmatrix}ab_{2,2}\\ ab_{3,2}\end{pmatrix},
 \\
 \mathbb{ab}_{03,13} &\leftarrow
-\begin{pmatrix}ab_{0,3}\\ab_{1,3}\end{pmatrix},
+\begin{pmatrix}ab_{0,3}\\ ab_{1,3}\end{pmatrix},
 &
 \mathbb{ab}_{23,33} &\leftarrow
-\begin{pmatrix}ab_{2,3}\\ab_{3,3}\end{pmatrix}.
+\begin{pmatrix}ab_{2,3}\\ ab_{3,3}\end{pmatrix}.
 \end{aligned}
 $$
 
