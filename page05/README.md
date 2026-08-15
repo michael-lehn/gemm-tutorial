@@ -650,8 +650,8 @@ TST# A B    M    N    K ALPHA  LDA  LDB  BETA  LDC  TIME MFLOP SpUp  TEST
 Save these results separately:
 
 ```console
-$ ./xdl3blastst > report
-$ grep PASS report > demo-sse-intrinsics-gcc
+$ ./xdl3blastst > report-gcc
+$ grep PASS report-gcc > demo-sse-intrinsics-gcc
 ```
 
 The two compiler versions can now be compared directly:
